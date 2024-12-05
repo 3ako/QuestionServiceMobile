@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto"
+        android:layout_gravity="center"
+        android:textFontWeight="30"
+        android:text="@string/login"
+        android:textSize="30sp"
+        android:layout_marginTop="100dp"/>
+
+    <EditText
+        android:id="@+id/loginField"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:layout_gravity="center"
+        android:hint="@string/email"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/passwordField"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:layout_gravity="center"
+        android:hint="@string/password"
+        android:inputType="text|textPassword" />
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/roboto"
+        android:text="@string/subminLogin" />
+
+    <TextView
+        android:id="@+id/registerButton"
+        android:layout_width="61dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:text="Регистрация"
+        android:textSize="10sp"
+        tools:ignore="HardcodedText,SmallSp" />
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto"
+        android:layout_gravity="center"
+        android:textFontWeight="30"
+        android:text="@string/register"
+        android:textSize="30sp"
+        android:layout_marginTop="100dp"/>
+
+    <EditText
+        android:id="@+id/loginField"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:layout_gravity="center"
+        android:hint="@string/email"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/passwordField"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:layout_gravity="center"
+        android:hint="@string/password"
+        android:inputType="text|textPassword" />
+
+    <EditText
+        android:id="@+id/retryPasswordField"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:layout_gravity="center"
+        android:hint="@string/retryPassword"
+        android:inputType="text|textPassword" />
+
+    <Button
+        android:id="@+id/registerButtonSubmit"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/roboto"
+        android:text="@string/register" />
+
+</LinearLayout>

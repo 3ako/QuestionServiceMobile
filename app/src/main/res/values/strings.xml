@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">QuestionApp</string>
+    <string name="login">Вход</string>
+    <string name="register">Регистрация</string>
+    <string name="email">Email</string>
+    <string name="password">Пароль</string>
+    <string name="retryPassword">Повтор пароля</string>
+    <string name="subminLogin">Войти</string>
+    <string name="menu_testlist">Тесты</string>
+    <string name="menu_profile">Профиль</string>
+</resources>
