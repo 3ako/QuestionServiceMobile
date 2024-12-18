@@ -1,0 +1,101 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Вопрос 1 -->
+    <TextView
+        android:id="@+id/question1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1. Название предмета"
+        android:textSize="18sp"
+        android:layout_marginBottom="8dp"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <CheckBox
+            android:id="@+id/answer1_option1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ПМУ"
+            android:layout_marginBottom="4dp" />
+
+        <CheckBox
+            android:id="@+id/answer1_option2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ОБЖ"
+            android:layout_marginBottom="4dp" />
+
+        <CheckBox
+            android:id="@+id/answer1_option3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Физра"
+            android:layout_marginBottom="4dp" />
+
+        <CheckBox
+            android:id="@+id/answer1_option4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Экономика"
+            android:layout_marginBottom="4dp" />
+    </LinearLayout>
+
+    <!-- Вопрос 2 -->
+    <TextView
+        android:id="@+id/question2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2. Имя преподавателя"
+        android:textSize="18sp"
+        android:layout_marginBottom="8dp"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <CheckBox
+            android:id="@+id/answer2_option1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Владимир"
+            android:layout_marginBottom="4dp" />
+
+        <CheckBox
+            android:id="@+id/answer2_option2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Константин"
+            android:layout_marginBottom="4dp" />
+
+        <CheckBox
+            android:id="@+id/answer2_option3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Евгений"
+            android:layout_marginBottom="4dp" />
+
+        <CheckBox
+            android:id="@+id/answer2_option4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Матвей"
+            android:layout_marginBottom="4dp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/submitTestButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Отправить"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"/>
+</LinearLayout>

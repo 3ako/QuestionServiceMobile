@@ -7,6 +7,8 @@ import ru.zako.questionapp.api.auth.AuthApiService
 import ru.zako.questionapp.api.auth.AuthInterceptor
 import ru.zako.questionapp.api.auth.ProfileService
 import ru.zako.questionapp.api.test.TestApiService
+import ru.zako.questionapp.api.test.question.QuestionApiService
+import ru.zako.questionapp.api.test.question.answer.AnswerApiService
 
 object RetrofitClient {
     private const val BASE_URL = "http://192.168.1.101:8080"
@@ -38,6 +40,14 @@ object RetrofitClient {
 
     val profileApi: ProfileService by lazy {
         privateApi.create(ProfileService::class.java)
+    }
+
+    val questionApi: QuestionApiService by lazy {
+        privateApi.create(QuestionApiService::class.java)
+    }
+
+    val answerApi: AnswerApiService by lazy {
+        privateApi.create(AnswerApiService::class.java)
     }
 
     val testApi: TestApiService by lazy {
